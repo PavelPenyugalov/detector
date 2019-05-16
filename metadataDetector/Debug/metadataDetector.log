@@ -1,0 +1,8 @@
+﻿  main.cpp
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall metadataFromJson::metadataFromJson(void)" (??0metadataFromJson@@QAE@XZ) в функции _main
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: __thiscall metadataFromJson::~metadataFromJson(void)" (??1metadataFromJson@@QAE@XZ) в функции _main
+main.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: int __thiscall metadataFromJson::movieMetadataFromJson(char const *,unsigned char * * &)" (?movieMetadataFromJson@metadataFromJson@@QAEHPBDAAPAPAE@Z) в функции _main
+C:\Users\HDR2_a\Downloads\plugin\metadataDetector\x265lib\lib\libx265.lib : warning LNK4272: тип компьютера библиотеки "x64" конфликтует с типом целевого компьютера "x86"
+C:\Users\HDR2_a\Downloads\plugin\metadataDetector\x265lib\lib\x265-static.lib : warning LNK4272: тип компьютера библиотеки "x64" конфликтует с типом целевого компьютера "x86"
+C:\Users\HDR2_a\Downloads\plugin\metadataDetector\x265lib\lib\hdr10plus.lib : warning LNK4272: тип компьютера библиотеки "x64" конфликтует с типом целевого компьютера "x86"
+C:\Users\HDR2_a\Downloads\plugin\metadataDetector\Debug\metadataDetector.exe : fatal error LNK1120: неразрешенных внешних элементов: 3

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\hdr2_a\downloads\plugin\metadatadetector\metadatadetector</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>103</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6328</DEFECTCODE>
+    <DESCRIPTION>Несоответствие размера: "unsigned __int64" передан в качестве параметра _Param_(2), хотя при вызове "printf" требуется "int". </DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>29</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\hdr2_a\downloads\plugin\metadatadetector\metadatadetector</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>253</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Возвращаемое значение пропущено: "_getche".</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>29</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\hdr2_a\downloads\plugin\metadatadetector\metadatadetector</FILEPATH>
+      <FILENAME>main.cpp</FILENAME>
+      <LINE>365</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>compare2vectors</FUNCTION>
+    <DECORATED>?compare2vectors@@YANV?$vector@EV?$allocator@E@std@@@std@@0@Z</DECORATED>
+    <FUNCLINE>339</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
